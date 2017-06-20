@@ -25,13 +25,13 @@ function feedback_form_form_alter(&$form, $form_state, $form_id) {
   	// $form['message']['widget']['0']['value']['#placeholder'] = 'Your Message';
   	// $form['message']['widget']['0']['value']['#required'] = 1;
   	// $form['message']['widget']['0']['value']['#title'] = FALSE;
+    // dsm($form);
   }
   
-  if ($form_id == 'contact_message_stay_in_touch_form') {
-  	$form['actions']['preview']['#access'] = FALSE;
-  	$form['actions']['submit']['#value'] = "<img src='/home/user/Загрузки/paper122.png'></img>";
-  	$form['field_email']['widget']['0']['value']['#placeholder'] = 'Subscribe our newsletter';
-  	$form['field_email']['widget']['0']['value']['#title'] = FALSE;
+  if ($form_id == 'search_block_form') {
+    $form['keys']['#placeholder'] = '';
+    $form['actions']['submit']['#value'] = 'Пошук';
+    $form['actions']['submit']['#name'] = 'Пошук';   
   }
 }
 
