@@ -1,0 +1,14 @@
+.block-commerce-cart{
+  border-bottom: 1px dotted #000;
+  .cart-block--summary__icon{
+    img{
+      width: 45px;
+    }
+  }
+  @include respond-to(xs) {
+    text-align: center;
+  }
+  @include respond-to(md) {
+    text-align: center;
+  }
+}

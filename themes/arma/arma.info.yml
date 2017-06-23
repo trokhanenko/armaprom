@@ -1,0 +1,33 @@
+core: 8.x
+type: theme
+base theme: bootstrap
+
+name: 'Arma'
+description: 'Uses the Bootstrap framework Sass source files and must be compiled (not for beginners).'
+package: 'Bootstrap'
+
+regions:
+  right: 'Right'
+  top_first: 'Top First'
+  top_second: 'Top Second'
+  top_three: 'Top Three'
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  header: 'Top Bar'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  footer_first: 'Footer First'
+  footer_second: 'Footer Second'
+  footer_three: 'Footer Three'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+libraries:
+  - 'arma/global-styling'
+  - 'arma/bootstrap-scripts'
+  - 'arma/slick'
+  - 'arma/custom'
+  - 'arma/colorbox'

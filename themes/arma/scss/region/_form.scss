@@ -1,0 +1,118 @@
+.form-right {
+      background: url(/themes/arma/images/form.png) no-repeat;
+      background-size: 140px 60px;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+      display: block;
+      height: 60px;
+      padding: 15px 10px 0;
+      position: fixed;
+      right: -56px;
+      top: 292px;
+      transform: rotate(-90deg);
+  .block-contact-poup {
+    a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 16px;
+      font-family: Arial;
+    }
+  }
+}
+.modal-dialog {
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  .modal-content {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    .modal-header {
+      background-color: #f2f2f2;
+      border-top: 1px solid #e1e1e1;
+      border-right: 1px solid #e1e1e1;
+      border-left: 1px solid #e1e1e1;
+      border-bottom: none;
+      color: #000;
+      .close {
+        margin-top: -20px;
+        margin-right: -13px;
+      }
+      .modal-title {
+        text-align: center
+      }
+    }
+    .modal-body {
+      background-color: #f2f2f2;
+      border-right: 1px solid #e1e1e1;
+      border-left: 1px solid #e1e1e1;
+      .field--name-field-name {
+        .js-form-type-textfield {
+          .form-control {
+            display: block;
+            width: 100%;
+          }
+          .js-text-full {
+            border-radius: 5px;
+            border: 1px solid #E1E1E1;
+            border-bottom: 3px solid #E1E1E1;
+            color: #000;
+          }
+        }
+      }
+      .field--name-field-email {
+        .js-form-type-email {
+          .form-control {
+            display: block;
+            width: 100%;
+          }
+          .form-email {
+            border-radius: 5px;
+            border: 1px solid #E1E1E1;
+            border-bottom: 3px solid #E1E1E1;
+            color: #000;
+          }
+        }
+      }
+      .field--name-field-phone {
+        .form-type-tel {
+          .form-control {
+            display: block;
+            width: 100%;
+          }
+          .form-tel {
+            border-radius: 5px;
+            border: 1px solid #E1E1E1;
+            border-bottom: 3px solid #E1E1E1;
+            color: #000;
+          }
+        }
+      }
+    }
+    .modal-footer {
+      background-color: #f2f2f2;
+      border-top: none;
+      text-align: center;
+      border-right: 1px solid #e1e1e1;
+      border-left: 1px solid #e1e1e1;
+      border-bottom: 1px solid #e1e1e1;
+      .button--primary {
+        width: 250px;
+        border: none;
+        border-radius: 5px;
+        color: #FFFFFF;
+        background: #EB655A;
+        font-size: 16px;
+        font-weight: bold;
+        padding-bottom: 10px;
+      }
+    }
+  }
+  .contact-message-feedback-form {
+    .form-actions {
+      display: none;
+    }
+    .js-form-required {
+      display: none;
+    }
+  }
+}

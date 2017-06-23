@@ -1,0 +1,22 @@
+.block-language{
+	width: auto;
+	float: right;
+	margin: 0 20px;
+	ul{
+		list-style-type: none;
+		a{
+			border-radius: 5px;
+			margin-bottom: 5px;
+			text-align: center;
+			display: block;
+			color: #000;
+			padding: 3px;
+			background: #eee;
+			width: 30px;
+		}
+		.is-active{
+			background: #444444;
+			border-radius: 5px;
+		}
+	}
+}

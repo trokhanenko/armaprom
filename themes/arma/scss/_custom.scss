@@ -1,0 +1,47 @@
+body{
+	background: url(/themes/arma/images/bg_body.gif) repeat-x 0 0 #e3e3e3;
+}
+.page-header{
+	font-size: 22px;
+	font-style: italic;
+	font-weight: bold;
+	border-bottom: 1px solid #000;
+	margin-bottom: 20px;
+}
+
+.catalog-item{
+	background: #D7D7D7;
+	border-radius: 10px;
+	padding: 15px;
+	margin-bottom: 10px;
+	a{
+		color: #000;
+		font-weight: bold;
+		display: block;
+		margin-top: 10px;
+	}
+	img{
+		height: 250px;
+		width: 290px;
+		margin: 0 auto;
+	}
+}
+.tovar-item{
+	padding: 10px 0;
+	border-bottom: 1px dotted #eee;
+	&:last-child{
+		border-bottom: none;
+	}
+	img{
+		float: left;
+		border: 3px double #eee;
+		margin-right: 15px;
+	}
+	a{
+		color: #c3600f;
+    	font-size: 14px;
+    	font-weight: bold;
+	}
+}
+
+

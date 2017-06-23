@@ -1,0 +1,121 @@
+.navbar-default {
+  margin-top: 10px;
+  background: linear-gradient(to top, #ccc 0%, #fff 100%);
+  @include respond-to(xs) {
+    width: 240px;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.5);
+  }
+  .navbar-nav {
+    li {
+      @include respond-to(xs) {
+        margin-left: 4%;
+        margin-right: 4%;
+        border-bottom: 1px dotted #000000;
+      }
+      a {
+        color: #696969;
+        border-right: 1px solid #C6C6C6;
+        font-size: 15px;
+        @include respond-to(xs) {
+          text-align: center;
+          border-right: none;
+          color: #000;
+          font-size: 20px;
+          font-weight: bold;
+          font-family: Arial;
+
+        }
+        &:hover {
+          background: linear-gradient( #ccc 0%, #fff 100%);
+          @include respond-to(xs) {
+            background: none;
+            text-decoration: underline;
+            color: #000;
+          }
+        }
+      }
+    }
+    .active{
+      a{
+        background: linear-gradient( #ccc 0%, #fff 100%);
+        @include respond-to(xs) {
+          background: none;
+          color: #000;
+          font-size: 20px;
+          font-weight: bold;
+          font-family: Arial;
+        }
+        &:hover {
+          @include respond-to(xs) {
+            background: none;
+            color: #000;
+          }
+        }
+      }
+    }
+  }
+}
+
+header {
+  box-shadow: 4px 4px 7px rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+.search-block-form {
+  @include respond-to(xs) {
+    display: none;
+  }
+}
+.navbar-default {
+  .navbar-toggle {
+    @include respond-to(xs) {
+      border: none;
+      width: 65px;
+      margin: 0 auto;
+      float: none;
+      display: block;
+    }
+    &:focus {
+      @include respond-to(xs) {
+        background-color: transparent;
+      }
+    }
+    &:hover {
+      @include respond-to(xs) {
+        background-color: transparent;
+      }
+    }
+    .icon-bar {
+      @include respond-to(xs) {
+        background-color: #000000;
+      }
+    }
+  }
+}
+.navbar-toggle {
+  .icon-bar {
+    @include respond-to(xs) {
+      width: 45px;
+      height: 5px;
+      margin-bottom: 8px;
+    }
+  }
+}
+.region-content {
+  .page-header {
+    @include respond-to(xs) {
+      text-align: center;
+      border-bottom: 1px solid #aaaaaa;
+      font-size: 20px;
+      font-style: italic;
+      font-family: Arial;
+      color: #000;
+
+    }
+  }
+}
+.block-views-blockslide-block-1 {
+  @include respond-to(xs) {
+    display: none;
+  }
+}

@@ -1,0 +1,17 @@
+.region-sidebar-first{
+	background: linear-gradient(#e0e0e0 0%, #fafafa 10%, #fff 100%);
+	border-radius: 10px;
+	border: 1px solid #fff;
+	padding: 5px;
+	margin-bottom: 15px;
+	h2{
+		font-size: 20px;
+		font-weight: bold;
+		margin-top: 5px;
+	}
+	a{
+		color: #000;
+		border-bottom: 2px dotted #eee;
+		padding: 8px 8px !important;
+	}
+}

@@ -1,0 +1,27 @@
+.search-block-form{
+	height: 40px;
+	width: 260px;
+	float: right;
+	margin-top: 8px;
+	.input-group-btn {
+		.icon-only {
+          background: linear-gradient(to top, #a09999 0%, #fff 100%);
+          margin-left: 10px;
+          font-weight: bold;
+          border-radius: 10px;
+          border: 0;
+		}
+	}
+	.form-group {
+		 margin-bottom: 0;
+	}
+	.sr-only{
+		position: relative;
+	}
+	label.control-label.sr-only {
+		display: none;
+	}
+    input#edit-keys {
+      border-radius: 10px;border: 2px solid #ccc;
+    }
+}

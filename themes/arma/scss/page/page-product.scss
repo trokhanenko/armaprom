@@ -1,0 +1,12 @@
+.path-product{
+	.field.field--name-variations.field--type-entity-reference.field--label-hidden.field--items {
+  		float: right;
+	}
+	.field.field--name-field-images.field--type-image.field--label-hidden.field--items {
+	    float: left;
+	    margin-right: 10px;
+	    @include respond-to(xs) {
+	      float: none;
+	    }
+	}
+}
