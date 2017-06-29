@@ -1,0 +1,9 @@
+uuid: 2c4158b7-1d9b-4d06-96cc-b2e2a8cc327b
+langcode: uk
+status: true
+dependencies: {  }
+currencyCode: UAH
+name: 'українська гривня'
+numericCode: '980'
+symbol: ₴
+fractionDigits: 2

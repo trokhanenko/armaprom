@@ -1,0 +1,14 @@
+uuid: ec9a890e-aff7-4f96-ae1b-1b9db09b07f6
+name: Armaprom
+mail: armaprom@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /catalog
+admin_compact_mode: false
+weight_select_max: 100
+langcode: uk
+default_langcode: uk
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

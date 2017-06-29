@@ -1,0 +1,23 @@
+uuid: e16115ea-c019-464e-a82a-553baa4bd92d
+langcode: uk
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - ctools
+id: venteli
+label: Товари
+type: 'canonical_entities:commerce_product'
+pattern: 'catalog/[commerce_product:field_tip]/[commerce_product:title]'
+selection_criteria:
+  2455ae78-2efb-43cf-824b-13380dd289ce:
+    id: 'entity_bundle:commerce_product'
+    bundles:
+      tovar: tovar
+    negate: false
+    context_mapping:
+      commerce_product: commerce_product
+    uuid: 2455ae78-2efb-43cf-824b-13380dd289ce
+selection_logic: and
+weight: -5
+relationships: {  }

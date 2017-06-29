@@ -1,0 +1,28 @@
+uuid: 0520e858-6ba0-4e63-a3c9-aa06b3ab251e
+langcode: uk
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.tovar
+    - field.storage.commerce_product.field_tip
+    - taxonomy.vocabulary.produkcia
+id: commerce_product.tovar.field_tip
+field_name: field_tip
+entity_type: commerce_product
+bundle: tovar
+label: Тип
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      produkcia: produkcia
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

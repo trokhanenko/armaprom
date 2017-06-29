@@ -1,0 +1,23 @@
+uuid: c2b327b9-7eb3-4b37-8ca2-a8518e5c9e2e
+langcode: uk
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.full
+    - taxonomy.vocabulary.produkcia
+  module:
+    - text
+id: taxonomy_term.produkcia.full
+targetEntityType: taxonomy_term
+bundle: produkcia
+mode: full
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

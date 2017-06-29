@@ -1,0 +1,20 @@
+uuid: 7c1b5d5e-75ea-482f-aa7e-213421f2858e
+langcode: uk
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.default
+id: commerce_product_variation.default.uid
+field_name: uid
+entity_type: commerce_product_variation
+bundle: default
+label: Автор
+description: 'Автор варіації.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\commerce_product\Entity\ProductVariation::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

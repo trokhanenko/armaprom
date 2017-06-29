@@ -1,0 +1,9 @@
+uuid: 7ad993eb-88ca-4b49-aa96-79a77e8eb777
+langcode: uk
+status: true
+dependencies: {  }
+id: tovar
+label: Товар
+orderItemType: default
+generateTitle: true
+traits: {  }

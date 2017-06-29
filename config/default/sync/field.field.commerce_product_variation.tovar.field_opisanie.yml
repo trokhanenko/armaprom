@@ -1,0 +1,21 @@
+uuid: 2044524a-9a5f-4cc1-9d7a-ce54386538fe
+langcode: uk
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.tovar
+    - field.storage.commerce_product_variation.field_opisanie
+  module:
+    - text
+id: commerce_product_variation.tovar.field_opisanie
+field_name: field_opisanie
+entity_type: commerce_product_variation
+bundle: tovar
+label: Описание
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

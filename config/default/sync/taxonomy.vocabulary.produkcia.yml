@@ -1,0 +1,9 @@
+uuid: 7c8c0c70-7320-4d1b-8f34-e5c4692bd095
+langcode: uk
+status: true
+dependencies: {  }
+name: Продукція
+vid: produkcia
+description: ''
+hierarchy: 1
+weight: 0

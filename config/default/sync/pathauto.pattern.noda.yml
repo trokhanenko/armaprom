@@ -1,0 +1,14 @@
+uuid: ca5e2892-a309-4fb7-8329-8e4fa592c416
+langcode: uk
+status: true
+dependencies:
+  module:
+    - node
+id: noda
+label: Нода
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

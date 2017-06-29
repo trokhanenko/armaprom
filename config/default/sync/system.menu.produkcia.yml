@@ -1,0 +1,8 @@
+uuid: db5781a2-2486-4661-9b59-1508c5865e05
+langcode: uk
+status: true
+dependencies: {  }
+id: produkcia
+label: Продукція
+description: ''
+locked: false

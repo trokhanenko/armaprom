@@ -1,0 +1,25 @@
+uuid: ff031c49-0c66-4085-a568-86593bff77e4
+langcode: uk
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3af50148-2979-47b1-bebe-43198438c816'
+  module:
+    - block_content
+  theme:
+    - arma
+id: address
+theme: arma
+region: footer_second
+weight: 0
+provider: null
+plugin: 'block_content:3af50148-2979-47b1-bebe-43198438c816'
+settings:
+  id: 'block_content:3af50148-2979-47b1-bebe-43198438c816'
+  label: Address
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: 58cb3b1b-4985-4fa3-8d04-90d05fbb01c6
+langcode: uk
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: taxonomy_production
+label: 'Taxonomy: production'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'catalog/[term:name]'
+selection_criteria:
+  565db8e9-e3c5-4a78-9f18-359717595cee:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      produkcia: produkcia
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: 565db8e9-e3c5-4a78-9f18-359717595cee
+selection_logic: and
+weight: -5
+relationships: {  }

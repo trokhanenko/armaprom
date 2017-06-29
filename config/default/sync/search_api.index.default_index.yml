@@ -1,0 +1,124 @@
+uuid: 54c8e985-f1a2-4262-9258-fabfe3f71fee
+langcode: uk
+status: false
+dependencies:
+  config:
+    - search_api.server.default_server
+  module:
+    - search_api
+    - commerce_product
+_core:
+  default_config_hash: CeQvQFFCLtBV14W1topZP19nFUlS3bSckwuryffgkgk
+id: default_index
+name: 'Default content index'
+description: 'Default content index created by the Database Search Defaults module'
+read_only: false
+field_settings:
+  rendered_item:
+    label: 'Rendered item'
+    property_path: rendered_item
+    type: text
+    configuration:
+      roles:
+        anonymous: anonymous
+      view_mode:
+        'entity:node':
+          article: search_index
+          page: search_index
+  title:
+    label: Title
+    datasource_id: 'entity:commerce_product'
+    property_path: title
+    type: text
+datasource_settings:
+  'entity:commerce_product':
+    bundles:
+      default: true
+      selected: {  }
+    languages:
+      default: true
+      selected: {  }
+processor_settings:
+  add_url:
+    weights:
+      preprocess_index: -30
+  transliteration:
+    all_fields: false
+    fields:
+      - rendered_item
+    weights:
+      preprocess_index: -47
+      preprocess_query: -47
+  tokenizer:
+    all_fields: false
+    fields:
+      - rendered_item
+    spaces: ''
+    overlap_cjk: 1
+    minimum_word_size: '3'
+    weights:
+      preprocess_index: -46
+      preprocess_query: -46
+  ignorecase:
+    all_fields: false
+    fields:
+      - rendered_item
+    weights:
+      preprocess_index: -48
+      preprocess_query: -48
+  stopwords:
+    all_fields: false
+    fields:
+      - rendered_item
+    stopwords:
+      - a
+      - an
+      - and
+      - are
+      - as
+      - at
+      - be
+      - but
+      - by
+      - for
+      - if
+      - in
+      - into
+      - is
+      - it
+      - 'no'
+      - not
+      - of
+      - 'on'
+      - or
+      - s
+      - such
+      - t
+      - that
+      - the
+      - their
+      - then
+      - there
+      - these
+      - they
+      - this
+      - to
+      - was
+      - will
+      - with
+    weights:
+      preprocess_index: -45
+      preprocess_query: -45
+  aggregated_field:
+    weights:
+      add_properties: 20
+  rendered_item:
+    weights:
+      add_properties: 0
+      pre_index_save: -10
+tracker_settings:
+  default: {  }
+options:
+  index_directly: true
+  cron_limit: 50
+server: default_server

@@ -1,0 +1,25 @@
+uuid: d5a2fc6e-f6c9-49d3-8cc6-eb37a045482a
+langcode: uk
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c514d667-35a4-464a-99c6-73f6717ae951'
+  module:
+    - block_content
+  theme:
+    - arma
+id: copy
+theme: arma
+region: footer_first
+weight: -9
+provider: null
+plugin: 'block_content:c514d667-35a4-464a-99c6-73f6717ae951'
+settings:
+  id: 'block_content:c514d667-35a4-464a-99c6-73f6717ae951'
+  label: Copy
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

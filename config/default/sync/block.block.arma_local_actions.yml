@@ -1,0 +1,20 @@
+uuid: ebbde901-74b2-40f4-83b5-ee8f92be4c35
+langcode: uk
+status: true
+dependencies:
+  theme:
+    - arma
+_core:
+  default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
+id: arma_local_actions
+theme: arma
+region: header
+weight: -12
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

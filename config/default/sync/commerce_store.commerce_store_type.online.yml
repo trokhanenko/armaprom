@@ -1,0 +1,10 @@
+uuid: c799b26d-0413-429c-8e04-b235cf0339e1
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: uXc7SNfdNF3TJ81MWGMvCjsKlNSElo6Cc0lTrhLSels
+id: online
+label: 'В мережі'
+description: ''
+traits: {  }

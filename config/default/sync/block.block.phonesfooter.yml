@@ -1,0 +1,25 @@
+uuid: 04d54f01-be4e-4988-afb4-3ef8fff24d2b
+langcode: uk
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:37cae4b6-6fe4-4dbc-bc38-91c645754f18'
+  module:
+    - block_content
+  theme:
+    - arma
+id: phonesfooter
+theme: arma
+region: footer_three
+weight: 0
+provider: null
+plugin: 'block_content:37cae4b6-6fe4-4dbc-bc38-91c645754f18'
+settings:
+  id: 'block_content:37cae4b6-6fe4-4dbc-bc38-91c645754f18'
+  label: Phones-footer
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

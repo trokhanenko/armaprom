@@ -1,0 +1,22 @@
+uuid: 3d528ca6-bcb9-4556-835e-c899a1eda5b6
+langcode: uk
+status: true
+dependencies:
+  theme:
+    - arma
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: arma_local_tasks
+theme: arma
+region: content
+weight: -12
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

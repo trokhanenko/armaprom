@@ -1,0 +1,10 @@
+uuid: 6d155e4b-da4a-4fd1-99e2-028c681cc775
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: M_Bh81osDyUQ4wV0GgU_NdBNqkzM87sLxjaCdFj9mnw
+id: account
+label: 'User account menu'
+description: 'Посилання, пов’язані з активним обліковим записом'
+locked: true

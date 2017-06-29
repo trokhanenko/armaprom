@@ -1,0 +1,25 @@
+uuid: fcc7d279-a4ba-400c-afb3-e6a6755a92d3
+langcode: uk
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e41e34e6-b9c3-4552-b7e8-48c8efe1a165'
+  module:
+    - block_content
+  theme:
+    - arma
+id: slogan
+theme: arma
+region: top_second
+weight: 0
+provider: null
+plugin: 'block_content:e41e34e6-b9c3-4552-b7e8-48c8efe1a165'
+settings:
+  id: 'block_content:e41e34e6-b9c3-4552-b7e8-48c8efe1a165'
+  label: Слоган
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

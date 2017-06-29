@@ -1,0 +1,25 @@
+uuid: 9ef9c211-17b0-4ca0-9e18-a41427477544
+langcode: uk
+status: true
+dependencies:
+  content:
+    - 'block_content:phone:3f4e0082-14f8-49d8-b3a2-d43d70667449'
+  module:
+    - block_content
+  theme:
+    - arma
+id: nomeritelefonivnagolovnustorinku
+theme: arma
+region: top_three
+weight: -11
+provider: null
+plugin: 'block_content:3f4e0082-14f8-49d8-b3a2-d43d70667449'
+settings:
+  id: 'block_content:3f4e0082-14f8-49d8-b3a2-d43d70667449'
+  label: 'Номери телефонів на головну сторінку'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

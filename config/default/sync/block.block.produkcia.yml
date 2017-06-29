@@ -1,0 +1,24 @@
+uuid: 70a1d22f-b4fd-4de2-99b5-d400b940903e
+langcode: uk
+status: true
+dependencies:
+  config:
+    - system.menu.produkcia
+  module:
+    - system
+  theme:
+    - arma
+id: produkcia
+theme: arma
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:produkcia'
+settings:
+  id: 'system_menu_block:produkcia'
+  label: Продукція
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 1
+visibility: {  }

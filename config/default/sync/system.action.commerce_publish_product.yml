@@ -1,0 +1,13 @@
+uuid: ac90a217-dbac-4fce-8f7e-98a1ac40cf6a
+langcode: uk
+status: true
+dependencies:
+  module:
+    - commerce_product
+_core:
+  default_config_hash: 83abjxFWTlkso65OfwvUzv_VvAc9iIswF2kW_MGZmY8
+id: commerce_publish_product
+label: 'Опублікувати товар'
+type: commerce_product
+plugin: commerce_publish_product
+configuration: {  }

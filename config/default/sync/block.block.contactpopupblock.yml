@@ -1,0 +1,22 @@
+uuid: 3a8b840d-ccaf-478d-bcbc-f3ec9f41c30d
+langcode: uk
+status: true
+dependencies:
+  module:
+    - contact_poup
+  theme:
+    - arma
+id: contactpopupblock
+theme: arma
+region: right
+weight: 0
+provider: null
+plugin: contact_popup_block
+settings:
+  id: contact_popup_block
+  label: 'Contact popup block'
+  provider: contact_poup
+  label_display: '0'
+  contact_form: feedback
+  link_title: 'Залишити заявку'
+visibility: {  }

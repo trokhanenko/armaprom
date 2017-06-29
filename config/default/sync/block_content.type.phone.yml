@@ -1,0 +1,8 @@
+uuid: 49d1d217-7b63-4531-90f6-25a3056cb125
+langcode: uk
+status: true
+dependencies: {  }
+id: phone
+label: Телефони
+revision: 0
+description: 'Блок на головну сторінку.'

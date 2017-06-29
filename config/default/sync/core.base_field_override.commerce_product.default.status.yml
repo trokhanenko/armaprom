@@ -1,0 +1,22 @@
+uuid: 3df86d99-207b-47a7-9d25-f04b856349a2
+langcode: uk
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.default
+id: commerce_product.default.status
+field_name: status
+entity_type: commerce_product
+bundle: default
+label: Published
+description: 'Чи товар опубліковано.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Увімкнено
+  off_label: Вимкнено
+field_type: boolean

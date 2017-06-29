@@ -1,0 +1,20 @@
+uuid: d9e1eb5f-6704-4430-b9ec-640488ea16e0
+langcode: uk
+status: true
+dependencies:
+  theme:
+    - arma
+_core:
+  default_config_hash: 1TQP4b3ZnlzvIH9bj6cpCz_SyUHdJjLQkZnHpikjjhw
+id: arma_page_title
+theme: arma
+region: content
+weight: -10
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

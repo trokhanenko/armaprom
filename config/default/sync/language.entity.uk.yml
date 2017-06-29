@@ -1,0 +1,9 @@
+uuid: 11a3b1c5-4bb7-46aa-bd16-4a5716fbf177
+langcode: uk
+status: true
+dependencies: {  }
+id: uk
+label: UA
+direction: ltr
+weight: 0
+locked: false

@@ -1,0 +1,69 @@
+uuid: 5914e26e-c404-47c0-a9e8-8d26a6ef055e
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.commerce_product.variations
+    - field.storage.commerce_product_variation.field_images
+    - field.storage.commerce_product_variation.field_opisanie
+    - search_api.server.forgoods
+  module:
+    - commerce_product
+    - search_api
+id: goods
+name: Goods
+description: ''
+read_only: false
+field_settings:
+  title:
+    label: Title
+    datasource_id: 'entity:commerce_product'
+    property_path: title
+    type: text
+  field_images:
+    label: 'Варіації » Варіація товару » images'
+    datasource_id: 'entity:commerce_product'
+    property_path: 'variations:entity:field_images'
+    type: text
+    dependencies:
+      config:
+        - field.storage.commerce_product.variations
+        - field.storage.commerce_product_variation.field_images
+      module:
+        - commerce_product
+  field_opisanie:
+    label: 'Варіації » Варіація товару » Описание'
+    datasource_id: 'entity:commerce_product'
+    property_path: 'variations:entity:field_opisanie'
+    type: text
+    dependencies:
+      config:
+        - field.storage.commerce_product.variations
+        - field.storage.commerce_product_variation.field_opisanie
+      module:
+        - commerce_product
+datasource_settings:
+  'entity:commerce_product':
+    bundles:
+      default: true
+      selected: {  }
+    languages:
+      default: true
+      selected: {  }
+processor_settings:
+  add_url: {  }
+  ignorecase:
+    all_fields: false
+    fields:
+      - title
+    weights:
+      preprocess_index: -20
+      preprocess_query: -20
+  aggregated_field: {  }
+  rendered_item: {  }
+tracker_settings:
+  default: {  }
+options:
+  index_directly: true
+  cron_limit: 50
+server: forgoods

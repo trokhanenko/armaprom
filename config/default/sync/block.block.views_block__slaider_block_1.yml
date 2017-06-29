@@ -1,0 +1,30 @@
+uuid: fb2c2281-0583-4349-b327-705141ada734
+langcode: uk
+status: true
+dependencies:
+  config:
+    - views.view.slaider
+  module:
+    - system
+    - views
+  theme:
+    - arma
+id: views_block__slaider_block_1
+theme: arma
+region: content
+weight: -11
+provider: null
+plugin: 'views_block:slaider-block_1'
+settings:
+  id: 'views_block:slaider-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

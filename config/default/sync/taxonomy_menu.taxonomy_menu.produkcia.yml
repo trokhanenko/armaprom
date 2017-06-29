@@ -1,0 +1,14 @@
+uuid: 5b51ba30-6a44-43cc-a9a2-f48242c2fb07
+langcode: uk
+status: true
+dependencies:
+  config:
+    - system.menu.produkcia
+    - taxonomy.vocabulary.produkcia
+id: produkcia
+label: Продукція
+vocabulary: produkcia
+menu: produkcia
+expanded: false
+depth: 2
+menu_parent: 'produkcia:'

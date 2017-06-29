@@ -1,0 +1,39 @@
+cdn_provider: ''
+_core:
+  default_config_hash: _5qrDuRmWmRVjW00si3U1s1NrgrocA4N653EYGRfgEE
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: ''
+  url: 'http://armaprom.loc/themes/arma/favicon.ico'
+  use_default: true
+schemas:
+  bootstrap: 8000
+  arma: 8000
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: 'public://logo2_0.png'
+  url: ''
+  use_default: false
+region_wells:
+  top_first: ''
+  top_second: ''
+  top_three: ''
+  navigation: ''
+  navigation_collapsible: ''
+  header: ''
+  highlighted: ''
+  help: ''
+  content: ''
+  sidebar_first: ''
+  sidebar_second: well
+  footer_first: ''
+  footer_second: ''
+  footer_three: ''
+  footer: ''
+table_responsive: '-1'
+table: ''
+langcode: uk

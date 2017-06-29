@@ -1,0 +1,43 @@
+uuid: 2c143982-3f63-49ec-8c1c-413bc27cf7ad
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.produkcia.field_picture_for_logo
+    - field.field.taxonomy_term.produkcia.field_picture_for_slide
+    - taxonomy.vocabulary.produkcia
+  module:
+    - image
+    - text
+id: taxonomy_term.produkcia.default
+targetEntityType: taxonomy_term
+bundle: produkcia
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_picture_for_logo:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_picture_for_slide:
+    weight: 2
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  langcode: true

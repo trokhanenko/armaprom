@@ -1,0 +1,10 @@
+uuid: 96ec075d-3c6a-445b-876a-4378d3d12c2f
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: EOQltUQPmgc6UQ2rcJ4Xi_leCEJj5ui0TR-12duS-Tk
+id: html_date
+label: 'Дата HTML'
+locked: true
+pattern: Y-m-d

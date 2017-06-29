@@ -1,0 +1,22 @@
+uuid: fd8b621e-1897-43f4-8e5b-c3c74812340b
+langcode: uk
+status: true
+dependencies:
+  config:
+    - node.type.page
+id: node.page.status
+field_name: status
+entity_type: node
+bundle: page
+label: 'Стан публікації'
+description: 'Булева індикація стану публікації.'
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Увімкнено
+  off_label: Вимкнено
+field_type: boolean

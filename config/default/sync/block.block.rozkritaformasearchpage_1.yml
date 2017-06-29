@@ -1,0 +1,23 @@
+uuid: 3670509d-c0cd-422f-8665-3e9523db8617
+langcode: uk
+status: true
+dependencies:
+  config:
+    - views.view.search
+  module:
+    - views
+  theme:
+    - arma
+id: rozkritaformasearchpage_1
+theme: arma
+region: navigation_collapsible
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:search-page_1'
+settings:
+  id: 'views_exposed_filter_block:search-page_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+visibility: {  }

@@ -1,0 +1,10 @@
+uuid: 43132394-49c1-414a-942e-7a45f9a65095
+langcode: uk
+status: true
+dependencies: {  }
+id: tovar
+label: Товар
+description: ''
+variationType: tovar
+injectVariationFields: true
+traits: {  }

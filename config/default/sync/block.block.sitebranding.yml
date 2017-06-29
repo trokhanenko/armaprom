@@ -1,0 +1,23 @@
+uuid: 490768e7-29d9-4e40-a9e7-ea343e31a653
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - arma
+id: sitebranding
+theme: arma
+region: top_first
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

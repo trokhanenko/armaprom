@@ -1,0 +1,11 @@
+uuid: ba6e89ac-4b28-423b-9cb9-8e7146281be4
+langcode: uk
+status: true
+dependencies:
+  config:
+    - block_content.type.phone
+id: block_content.phone
+target_entity_type_id: block_content
+target_bundle: phone
+default_langcode: site_default
+language_alterable: false

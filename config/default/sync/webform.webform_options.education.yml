@@ -1,0 +1,13 @@
+uuid: c299a1e0-b964-4050-b257-731e091641ad
+langcode: uk
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: IuY4ogtJsj3mKSd__nF6iPCn0YarYhDkKtiiGtv7hGk
+id: education
+label: Освіта
+category: Demographic
+options: "High School: High School\nAssociate Degree: Associate Degree\nAssociate Degree: Associate Degree\nGraduate or Professional Degree: Graduate or Professional Degree\nSome College: Some College\n"

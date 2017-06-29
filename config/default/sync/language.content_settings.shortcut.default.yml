@@ -1,0 +1,16 @@
+uuid: fe9cb773-7d5a-4b3e-87aa-ef6a3a9a0477
+langcode: uk
+status: true
+dependencies:
+  config:
+    - shortcut.set.default
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: shortcut.default
+target_entity_type_id: shortcut
+target_bundle: default
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,38 @@
+uuid: 75ee7f6f-e3a3-43c1-9124-2d42f9656d4f
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_picture_for_slide
+    - taxonomy.vocabulary.produkcia
+  module:
+    - image
+id: taxonomy_term.produkcia.field_picture_for_slide
+field_name: field_picture_for_slide
+entity_type: taxonomy_term
+bundle: produkcia
+label: 'Picture for slide'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

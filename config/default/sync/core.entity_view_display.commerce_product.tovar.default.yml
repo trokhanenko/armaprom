@@ -1,0 +1,30 @@
+uuid: d5bb1c0b-5bf6-4553-a65a-151fd89d4447
+langcode: uk
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.tovar
+    - field.field.commerce_product.tovar.field_tip
+    - field.field.commerce_product.tovar.stores
+    - field.field.commerce_product.tovar.variations
+  module:
+    - commerce_product
+id: commerce_product.tovar.default
+targetEntityType: commerce_product
+bundle: tovar
+mode: default
+content:
+  variations:
+    type: commerce_add_to_cart
+    weight: 0
+    label: hidden
+    settings:
+      combine: true
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  field_tip: true
+  langcode: true
+  stores: true
+  uid: true

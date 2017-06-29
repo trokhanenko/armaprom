@@ -1,0 +1,25 @@
+uuid: 65231dbc-7334-4023-a5a7-10a3621973d7
+langcode: uk
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:cb2a07d7-4c4a-4a0a-8e3c-8d04d579fca6'
+  module:
+    - block_content
+  theme:
+    - arma
+id: delivery
+theme: arma
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:cb2a07d7-4c4a-4a0a-8e3c-8d04d579fca6'
+settings:
+  id: 'block_content:cb2a07d7-4c4a-4a0a-8e3c-8d04d579fca6'
+  label: Delivery
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

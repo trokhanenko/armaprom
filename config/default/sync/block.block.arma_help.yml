@@ -1,0 +1,22 @@
+uuid: 6877a97c-8976-4db6-99ec-0bdd98dd040f
+langcode: uk
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - arma
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: arma_help
+theme: arma
+region: help
+weight: -8
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

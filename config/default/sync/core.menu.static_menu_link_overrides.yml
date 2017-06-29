@@ -1,0 +1,328 @@
+definitions:
+  contact__site_page:
+    enabled: true
+    menu_name: footer
+    parent: ''
+    weight: 0
+    expanded: false
+  standard__front_page:
+    enabled: false
+    menu_name: main
+    parent: ''
+    expanded: false
+    weight: 0
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__4':
+    weight: -52
+    menu_name: produkcia
+    parent: ''
+    enabled: true
+    expanded: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__12':
+    weight: -51
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.4'
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__13':
+    weight: -50
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.4'
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__11':
+    weight: -49
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.4'
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__10':
+    weight: -48
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.4'
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__14':
+    weight: -51
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.4'
+    enabled: true
+    expanded: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__2':
+    weight: -50
+    menu_name: produkcia
+    parent: ''
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__18':
+    weight: -45
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.2'
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__44':
+    weight: -44
+    enabled: false
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.18'
+    expanded: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__43':
+    weight: -43
+    enabled: false
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.18'
+    expanded: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__42':
+    weight: -42
+    enabled: false
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.18'
+    expanded: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__20':
+    weight: -41
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.2'
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__8':
+    weight: -40
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.2'
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__29':
+    weight: -39
+    enabled: false
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.8'
+    expanded: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__30':
+    weight: -38
+    enabled: false
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.8'
+    expanded: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__25':
+    weight: -37
+    enabled: false
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.8'
+    expanded: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__27':
+    weight: -36
+    enabled: false
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.8'
+    expanded: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__26':
+    weight: -35
+    enabled: false
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.8'
+    expanded: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__28':
+    weight: -34
+    enabled: false
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.8'
+    expanded: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__9':
+    weight: -33
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.2'
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__34':
+    weight: -32
+    enabled: false
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.9'
+    expanded: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__33':
+    weight: -31
+    enabled: false
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.9'
+    expanded: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__31':
+    weight: -30
+    enabled: false
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.9'
+    expanded: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__35':
+    weight: -29
+    enabled: false
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.9'
+    expanded: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__21':
+    weight: -28
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.2'
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__24':
+    weight: -27
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.2'
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__19':
+    weight: -26
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.2'
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__39':
+    weight: -25
+    enabled: false
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.19'
+    expanded: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__37':
+    weight: -24
+    enabled: false
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.19'
+    expanded: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__40':
+    weight: -23
+    enabled: false
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.19'
+    expanded: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__36':
+    weight: -22
+    enabled: false
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.19'
+    expanded: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__41':
+    weight: -21
+    enabled: false
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.19'
+    expanded: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__38':
+    weight: -20
+    enabled: false
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.19'
+    expanded: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__23':
+    weight: -19
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.2'
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__22':
+    weight: -18
+    enabled: false
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.2'
+    expanded: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__52':
+    weight: -49
+    menu_name: produkcia
+    parent: ''
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__3':
+    weight: -48
+    menu_name: produkcia
+    parent: ''
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__17':
+    enabled: false
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.3'
+    weight: 0
+    expanded: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__16':
+    enabled: false
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.3'
+    weight: 0
+    expanded: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__15':
+    enabled: false
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.3'
+    weight: 0
+    expanded: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__53':
+    weight: -47
+    menu_name: produkcia
+    parent: ''
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__1':
+    weight: -46
+    menu_name: produkcia
+    parent: ''
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__51':
+    weight: -46
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.1'
+    expanded: true
+    enabled: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__50':
+    weight: -45
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.1'
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__5':
+    weight: -44
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.1'
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__48':
+    weight: -46
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.5'
+    enabled: true
+    expanded: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__47':
+    weight: -45
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.5'
+    expanded: true
+    enabled: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__45':
+    weight: -44
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.5'
+    expanded: true
+    enabled: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__46':
+    weight: -43
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.5'
+    expanded: true
+    enabled: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__7':
+    weight: -42
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.1'
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__49':
+    weight: -41
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.1'
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__produkcia__6':
+    weight: -46
+    menu_name: produkcia
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.produkcia.1'
+    expanded: false
+    enabled: true
+_core:
+  default_config_hash: jdY7AU0tU-QsjmiOw3W8vwpYMb-By--_MSFgbqKUTYM
+langcode: uk

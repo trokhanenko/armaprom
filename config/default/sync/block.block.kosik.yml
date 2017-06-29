@@ -1,0 +1,21 @@
+uuid: ad3032cc-30f1-49d1-b087-665fda917068
+langcode: uk
+status: true
+dependencies:
+  module:
+    - commerce_cart
+  theme:
+    - arma
+id: kosik
+theme: arma
+region: sidebar_first
+weight: 0
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: Кошик
+  provider: commerce_cart
+  label_display: '0'
+  dropdown: false
+visibility: {  }

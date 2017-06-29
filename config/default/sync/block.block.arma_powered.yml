@@ -1,0 +1,22 @@
+uuid: d2169d75-49d0-4028-be08-2a87910e6598
+langcode: uk
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - arma
+_core:
+  default_config_hash: iggZSiUKz4mYP1YPJ8SsUfFu79HIgOTt6IDy3Up59aM
+id: arma_powered
+theme: arma
+region: footer
+weight: -8
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

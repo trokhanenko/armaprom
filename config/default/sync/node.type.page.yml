@@ -1,0 +1,13 @@
+uuid: 0c6f320e-aa52-444f-b0eb-40335b79efcd
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: KuyA4NHPXcmKAjRtwa0vQc2ZcyrUJy6IlS2TAyMNRbc
+name: 'Проста сторінка'
+type: page
+description: '<em>Прості сторінки</em> використовуються для розміщення незмінюваного вмісту на кшталт сторінки ''Про нас''.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

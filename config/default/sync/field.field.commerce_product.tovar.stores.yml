@@ -1,0 +1,21 @@
+uuid: 5464c78f-191f-46b7-ad48-ad8d8bef2b0f
+langcode: uk
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.tovar
+    - field.storage.commerce_product.stores
+id: commerce_product.tovar.stores
+field_name: stores
+entity_type: commerce_product
+bundle: tovar
+label: Stores
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: null
+settings:
+  handler: 'default:commerce_store'
+  handler_settings: {  }
+field_type: entity_reference

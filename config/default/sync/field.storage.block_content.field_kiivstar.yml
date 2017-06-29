@@ -1,0 +1,21 @@
+uuid: 44c372e5-13a4-40e7-abee-7959d9c54163
+langcode: uk
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.field_kiivstar
+field_name: field_kiivstar
+entity_type: block_content
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

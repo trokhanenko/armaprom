@@ -1,0 +1,16 @@
+uuid: 71e90a01-42da-4037-b232-d86e8351ab44
+langcode: uk
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.tovar
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: commerce_product.tovar
+target_entity_type_id: commerce_product
+target_bundle: tovar
+default_langcode: site_default
+language_alterable: true
