@@ -1,26 +1,29 @@
-#views-exposed-form-search-page-1{
-	height: 40px;
-	width: 280px;
+#block-rozkritaformasearchpage-1{
 	float: right;
-	margin-top: 9px;
-	text-align: right;
-	#edit-submit-search{
-		color: #000;
-		background: linear-gradient(to top, #a09999 0%, #fff 100%);
-        margin: 0;
-        font-weight: bold;
-        border-radius: 10px;
-        border: 0;
+	#views-exposed-form-search-page-1{
+		height: 40px;
+		width: 280px;
+		float: right;
+		margin-top: 9px;
+		text-align: right;
+		#edit-submit-search{
+			color: #000;
+			background: linear-gradient(to top, #a09999 0%, #fff 100%);
+	        margin: 0;
+	        font-weight: bold;
+	        border-radius: 10px;
+	        border: 0;
+		}
+		#edit-search-api-fulltext{
+			border-radius: 10px;
+			border: 2px solid #ccc;
+			width: 200px;
+		}
+		.form-group {
+			 margin-bottom: 0;
+		}
+		@include respond-to(xs) {
+		    display: none;
+		}
 	}
-	#edit-search-api-fulltext{
-		border-radius: 10px;
-		border: 2px solid #ccc;
-		width: 200px;
-	}
-	.form-group {
-		 margin-bottom: 0;
-	}
-	@include respond-to(xs) {
-	    display: none;
-	}
-}
+} 

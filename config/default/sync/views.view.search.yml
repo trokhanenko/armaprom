@@ -3,11 +3,13 @@ langcode: uk
 status: true
 dependencies:
   config:
+    - field.storage.commerce_product.variations
     - field.storage.commerce_product_variation.field_images
     - field.storage.commerce_product_variation.field_opisanie
     - image.style.thumbnail
     - search_api.index.goods
   module:
+    - commerce_product
     - image
     - search_api
     - text
@@ -40,11 +42,11 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Apply
+          submit_button: Пошук
           reset_button: false
           reset_button_label: Reset
           exposed_sorts_label: 'Sort by'
-          expose_sort_order: true
+          expose_sort_order: false
           sort_asc_label: Asc
           sort_desc_label: Desc
       pager:
@@ -67,9 +69,82 @@ display:
             next: ››
       style:
         type: default
+        options:
+          grouping: {  }
+          row_class: tovar-item
+          default_row_class: true
       row:
         type: fields
       fields:
+        field_images:
+          id: field_images
+          table: search_api_index_goods
+          field: field_images
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: image
+          settings:
+            image_style: thumbnail
+            image_link: content
+          group_column: ''
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 1
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          field_rendering: true
+          fallback_handler: search_api
+          fallback_options:
+            link_to_item: false
+            multi_separator: ', '
+          plugin_id: search_api_field
         title:
           id: title
           table: search_api_index_goods
@@ -140,10 +215,10 @@ display:
           entity_type: null
           entity_field: null
           plugin_id: search_api_field
-        field_images:
-          id: field_images
-          table: search_api_index_goods
-          field: field_images
+        variations:
+          id: variations
+          table: search_api_datasource_goods_entity_commerce_product
+          field: variations
           relationship: none
           group_type: group
           admin_label: ''
@@ -189,14 +264,13 @@ display:
           empty_zero: false
           hide_alter_empty: true
           click_sort_column: target_id
-          type: image
+          type: commerce_add_to_cart
           settings:
-            image_style: thumbnail
-            image_link: content
-          group_column: ''
+            combine: true
+          group_column: target_id
           group_columns: {  }
           group_rows: true
-          delta_limit: 1
+          delta_limit: 0
           delta_offset: 0
           delta_reversed: false
           delta_first_last: false
@@ -204,10 +278,18 @@ display:
           separator: ', '
           field_api_classes: false
           field_rendering: true
-          fallback_handler: search_api
+          fallback_handler: search_api_entity
           fallback_options:
             link_to_item: false
             multi_separator: ', '
+            display_methods:
+              default:
+                display_method: label
+                view_mode: cart
+              tovar:
+                display_method: label
+                view_mode: default
+          entity_type: commerce_product
           plugin_id: search_api_field
         field_opisanie:
           id: field_opisanie
@@ -260,7 +342,7 @@ display:
           click_sort_column: value
           type: text_trimmed
           settings:
-            trim_length: 600
+            trim_length: 300
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -323,7 +405,20 @@ display:
       title: Пошук
       header: {  }
       footer: {  }
-      empty: {  }
+      empty:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: true
+          tokenize: false
+          content:
+            value: 'За вашим запитом нічого не знайдено!'
+            format: full_html
+          plugin_id: text
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
@@ -335,6 +430,7 @@ display:
         - url
         - url.query_args
       tags:
+        - 'config:field.storage.commerce_product.variations'
         - 'config:field.storage.commerce_product_variation.field_images'
         - 'config:field.storage.commerce_product_variation.field_opisanie'
   page_1:
@@ -354,5 +450,6 @@ display:
         - url
         - url.query_args
       tags:
+        - 'config:field.storage.commerce_product.variations'
         - 'config:field.storage.commerce_product_variation.field_images'
         - 'config:field.storage.commerce_product_variation.field_opisanie'

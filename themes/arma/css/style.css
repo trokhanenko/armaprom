@@ -9514,66 +9514,27 @@ body {
   margin-bottom: 20px;
 }
 
-/* line 12, ../scss/_custom.scss */
-.catalog-item {
-  background: #D7D7D7;
-  border-radius: 10px;
-  padding: 15px;
-  margin-bottom: 10px;
-}
-/* line 17, ../scss/_custom.scss */
-.catalog-item a {
-  color: #000;
-  font-weight: bold;
-  display: block;
-  margin-top: 10px;
-}
-/* line 23, ../scss/_custom.scss */
-.catalog-item img {
-  height: 250px;
-  width: 290px;
-  margin: 0 auto;
-}
-
-/* line 29, ../scss/_custom.scss */
-.tovar-item {
-  padding: 10px 0;
-  border-bottom: 1px dotted #eee;
-}
-/* line 32, ../scss/_custom.scss */
-.tovar-item:last-child {
-  border-bottom: none;
-}
-/* line 35, ../scss/_custom.scss */
-.tovar-item img {
-  float: left;
-  border: 3px double #eee;
-  margin-right: 15px;
-}
-/* line 40, ../scss/_custom.scss */
-.tovar-item a {
-  color: #c3600f;
-  font-size: 14px;
-  font-weight: bold;
-}
-
 @media only screen and (max-width: 540px) {
-  /* line 47, ../scss/_custom.scss */
+  /* line 14, ../scss/_custom.scss */
   #block-contactpopupblock {
     display: none;
   }
 }
 
 /* line 1, ../scss/block/_search.scss */
-#views-exposed-form-search-page-1 {
+#block-rozkritaformasearchpage-1 {
+  float: right;
+}
+/* line 3, ../scss/block/_search.scss */
+#block-rozkritaformasearchpage-1 #views-exposed-form-search-page-1 {
   height: 40px;
   width: 280px;
   float: right;
   margin-top: 9px;
   text-align: right;
 }
-/* line 7, ../scss/block/_search.scss */
-#views-exposed-form-search-page-1 #edit-submit-search {
+/* line 9, ../scss/block/_search.scss */
+#block-rozkritaformasearchpage-1 #views-exposed-form-search-page-1 #edit-submit-search {
   color: #000;
   background: linear-gradient(to top, #a09999 0%, #fff 100%);
   margin: 0;
@@ -9581,19 +9542,19 @@ body {
   border-radius: 10px;
   border: 0;
 }
-/* line 15, ../scss/block/_search.scss */
-#views-exposed-form-search-page-1 #edit-search-api-fulltext {
+/* line 17, ../scss/block/_search.scss */
+#block-rozkritaformasearchpage-1 #views-exposed-form-search-page-1 #edit-search-api-fulltext {
   border-radius: 10px;
   border: 2px solid #ccc;
   width: 200px;
 }
-/* line 20, ../scss/block/_search.scss */
-#views-exposed-form-search-page-1 .form-group {
+/* line 22, ../scss/block/_search.scss */
+#block-rozkritaformasearchpage-1 #views-exposed-form-search-page-1 .form-group {
   margin-bottom: 0;
 }
 @media only screen and (max-width: 540px) {
-  /* line 1, ../scss/block/_search.scss */
-  #views-exposed-form-search-page-1 {
+  /* line 3, ../scss/block/_search.scss */
+  #block-rozkritaformasearchpage-1 #views-exposed-form-search-page-1 {
     display: none;
   }
 }
@@ -9722,6 +9683,61 @@ section#block-nomeritelefonivnagolovnustorinku .field--name-field-life {
   }
 }
 
+/* line 16, ../scss/block/_cart.scss */
+.catalog-item {
+  background: #D7D7D7;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+/* line 21, ../scss/block/_cart.scss */
+.catalog-item a {
+  color: #000;
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+/* line 27, ../scss/block/_cart.scss */
+.catalog-item img {
+  height: 250px;
+  width: 290px;
+  margin: 0 auto;
+}
+
+/* line 33, ../scss/block/_cart.scss */
+.tovar-item {
+  padding: 10px 0;
+  border-bottom: 1px dotted #000;
+}
+/* line 36, ../scss/block/_cart.scss */
+.tovar-item:last-child {
+  border-bottom: none;
+}
+/* line 39, ../scss/block/_cart.scss */
+.tovar-item img {
+  float: left;
+  border: 3px double #eee;
+  margin-right: 15px;
+}
+/* line 44, ../scss/block/_cart.scss */
+.tovar-item a {
+  color: #c3600f;
+  font-size: 14px;
+  font-weight: bold;
+}
+/* line 49, ../scss/block/_cart.scss */
+.tovar-item .form-group {
+  margin-bottom: 0;
+}
+/* line 52, ../scss/block/_cart.scss */
+.tovar-item span {
+  font-weight: bold;
+}
+/* line 54, ../scss/block/_cart.scss */
+.tovar-item span p {
+  font-weight: none;
+}
+
 /* line 1, ../scss/block/_slider.scss */
 .slide {
   margin-bottom: 10px;
@@ -9747,22 +9763,28 @@ section#block-nomeritelefonivnagolovnustorinku .field--name-field-life {
   width: 100%;
 }
 
-/* line 23, ../scss/block/_slider.scss */
+/* line 22, ../scss/block/_slider.scss */
 .block-views-blockslaider-block-1 .slick-dots {
   bottom: 35px;
   width: 35%;
   right: 0;
 }
-/* line 28, ../scss/block/_slider.scss */
+/* line 27, ../scss/block/_slider.scss */
 .block-views-blockslaider-block-1 .slick-dots li.slick-active button:before {
   opacity: 1;
   color: #fff;
 }
-/* line 33, ../scss/block/_slider.scss */
+/* line 31, ../scss/block/_slider.scss */
 .block-views-blockslaider-block-1 .slick-dots li button:before {
   font-size: 18px;
   opacity: 1;
   color: black;
+}
+@media only screen and (max-width: 540px) {
+  /* line 21, ../scss/block/_slider.scss */
+  .block-views-blockslaider-block-1 {
+    display: none !important;
+  }
 }
 
 /* line 1, ../scss/block/_footer.scss */

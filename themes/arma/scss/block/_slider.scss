@@ -19,7 +19,6 @@
 	}
 }
 .block-views-blockslaider-block-1{
-
 	.slick-dots{
 		bottom: 35px;
 		width: 35%;
@@ -29,10 +28,12 @@
     opacity: 1;
     color: #fff;
 	}
-
 	.slick-dots li button:before {
 	    font-size: 18px;
 	    opacity: 1;
 	    color: black;
+	}
+	@include respond-to(xs) {
+	    display: none !important;
 	}
 }
