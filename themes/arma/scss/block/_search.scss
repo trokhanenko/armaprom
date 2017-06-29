@@ -1,27 +1,26 @@
-.search-block-form{
+#views-exposed-form-search-page-1{
 	height: 40px;
-	width: 260px;
+	width: 280px;
 	float: right;
-	margin-top: 8px;
-	.input-group-btn {
-		.icon-only {
-          background: linear-gradient(to top, #a09999 0%, #fff 100%);
-          margin-left: 10px;
-          font-weight: bold;
-          border-radius: 10px;
-          border: 0;
-		}
+	margin-top: 9px;
+	text-align: right;
+	#edit-submit-search{
+		color: #000;
+		background: linear-gradient(to top, #a09999 0%, #fff 100%);
+        margin: 0;
+        font-weight: bold;
+        border-radius: 10px;
+        border: 0;
+	}
+	#edit-search-api-fulltext{
+		border-radius: 10px;
+		border: 2px solid #ccc;
+		width: 200px;
 	}
 	.form-group {
 		 margin-bottom: 0;
 	}
-	.sr-only{
-		position: relative;
+	@include respond-to(xs) {
+	    display: none;
 	}
-	label.control-label.sr-only {
-		display: none;
-	}
-    input#edit-keys {
-      border-radius: 10px;border: 2px solid #ccc;
-    }
 }

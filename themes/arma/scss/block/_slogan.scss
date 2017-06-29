@@ -27,8 +27,3 @@
   }
 }
 
-section#block-contactpopupblock {
-  @include respond-to(xs) {
-    display: none;
-  }
-}

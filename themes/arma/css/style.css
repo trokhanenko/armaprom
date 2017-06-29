@@ -9557,37 +9557,45 @@ body {
   font-weight: bold;
 }
 
+@media only screen and (max-width: 540px) {
+  /* line 47, ../scss/_custom.scss */
+  #block-contactpopupblock {
+    display: none;
+  }
+}
+
 /* line 1, ../scss/block/_search.scss */
-.search-block-form {
+#views-exposed-form-search-page-1 {
   height: 40px;
-  width: 260px;
+  width: 280px;
   float: right;
-  margin-top: 8px;
+  margin-top: 9px;
+  text-align: right;
 }
 /* line 7, ../scss/block/_search.scss */
-.search-block-form .input-group-btn .icon-only {
+#views-exposed-form-search-page-1 #edit-submit-search {
+  color: #000;
   background: linear-gradient(to top, #a09999 0%, #fff 100%);
-  margin-left: 10px;
+  margin: 0;
   font-weight: bold;
   border-radius: 10px;
   border: 0;
 }
 /* line 15, ../scss/block/_search.scss */
-.search-block-form .form-group {
-  margin-bottom: 0;
-}
-/* line 18, ../scss/block/_search.scss */
-.search-block-form .sr-only {
-  position: relative;
-}
-/* line 21, ../scss/block/_search.scss */
-.search-block-form label.control-label.sr-only {
-  display: none;
-}
-/* line 24, ../scss/block/_search.scss */
-.search-block-form input#edit-keys {
+#views-exposed-form-search-page-1 #edit-search-api-fulltext {
   border-radius: 10px;
   border: 2px solid #ccc;
+  width: 200px;
+}
+/* line 20, ../scss/block/_search.scss */
+#views-exposed-form-search-page-1 .form-group {
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 540px) {
+  /* line 1, ../scss/block/_search.scss */
+  #views-exposed-form-search-page-1 {
+    display: none;
+  }
 }
 
 /* line 1, ../scss/block/_lang.scss */
@@ -9614,6 +9622,7 @@ body {
 /* line 17, ../scss/block/_lang.scss */
 .block-language ul .is-active {
   background: #444444;
+  color: #fff;
   border-radius: 5px;
 }
 
@@ -9689,13 +9698,6 @@ section#block-nomeritelefonivnagolovnustorinku .field--name-field-life {
     display: block;
     width: 240px;
     margin: 0 auto;
-  }
-}
-
-@media only screen and (max-width: 540px) {
-  /* line 30, ../scss/block/_slogan.scss */
-  section#block-contactpopupblock {
-    display: none;
   }
 }
 
@@ -9823,19 +9825,18 @@ section#block-nomeritelefonivnagolovnustorinku .field--name-field-life {
 
 /* line 1, ../scss/region/_form.scss */
 .form-right {
-  background: url(/themes/arma/images/form.png) no-repeat;
-  background-size: 140px 60px;
+  background: #f00;
+  box-shadow: 1px 1px 5px;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
   display: block;
-  height: 60px;
-  padding: 15px 10px 0;
+  padding: 10px 10px 30px 10px;
   position: fixed;
-  right: -56px;
+  right: -60px;
   top: 292px;
   transform: rotate(-90deg);
 }
-/* line 14, ../scss/region/_form.scss */
+/* line 13, ../scss/region/_form.scss */
 .form-right .block-contact-poup a {
   color: #ffffff;
   text-decoration: none;
@@ -9843,18 +9844,18 @@ section#block-nomeritelefonivnagolovnustorinku .field--name-field-life {
   font-family: Arial;
 }
 
-/* line 22, ../scss/region/_form.scss */
+/* line 21, ../scss/region/_form.scss */
 .modal-dialog {
   padding-left: 7.5%;
   padding-right: 7.5%;
 }
-/* line 25, ../scss/region/_form.scss */
+/* line 24, ../scss/region/_form.scss */
 .modal-dialog .modal-content {
   border: 1px solid black;
   padding: 10px;
   border-radius: 10px;
 }
-/* line 29, ../scss/region/_form.scss */
+/* line 28, ../scss/region/_form.scss */
 .modal-dialog .modal-content .modal-header {
   background-color: #f2f2f2;
   border-top: 1px solid #e1e1e1;
@@ -9863,58 +9864,58 @@ section#block-nomeritelefonivnagolovnustorinku .field--name-field-life {
   border-bottom: none;
   color: #000;
 }
-/* line 36, ../scss/region/_form.scss */
+/* line 35, ../scss/region/_form.scss */
 .modal-dialog .modal-content .modal-header .close {
   margin-top: -20px;
   margin-right: -13px;
 }
-/* line 40, ../scss/region/_form.scss */
+/* line 39, ../scss/region/_form.scss */
 .modal-dialog .modal-content .modal-header .modal-title {
   text-align: center;
 }
-/* line 44, ../scss/region/_form.scss */
+/* line 43, ../scss/region/_form.scss */
 .modal-dialog .modal-content .modal-body {
   background-color: #f2f2f2;
   border-right: 1px solid #e1e1e1;
   border-left: 1px solid #e1e1e1;
 }
-/* line 50, ../scss/region/_form.scss */
+/* line 49, ../scss/region/_form.scss */
 .modal-dialog .modal-content .modal-body .field--name-field-name .js-form-type-textfield .form-control {
   display: block;
   width: 100%;
 }
-/* line 54, ../scss/region/_form.scss */
+/* line 53, ../scss/region/_form.scss */
 .modal-dialog .modal-content .modal-body .field--name-field-name .js-form-type-textfield .js-text-full {
   border-radius: 5px;
   border: 1px solid #E1E1E1;
   border-bottom: 3px solid #E1E1E1;
   color: #000;
 }
-/* line 64, ../scss/region/_form.scss */
+/* line 63, ../scss/region/_form.scss */
 .modal-dialog .modal-content .modal-body .field--name-field-email .js-form-type-email .form-control {
   display: block;
   width: 100%;
 }
-/* line 68, ../scss/region/_form.scss */
+/* line 67, ../scss/region/_form.scss */
 .modal-dialog .modal-content .modal-body .field--name-field-email .js-form-type-email .form-email {
   border-radius: 5px;
   border: 1px solid #E1E1E1;
   border-bottom: 3px solid #E1E1E1;
   color: #000;
 }
-/* line 78, ../scss/region/_form.scss */
+/* line 77, ../scss/region/_form.scss */
 .modal-dialog .modal-content .modal-body .field--name-field-phone .form-type-tel .form-control {
   display: block;
   width: 100%;
 }
-/* line 82, ../scss/region/_form.scss */
+/* line 81, ../scss/region/_form.scss */
 .modal-dialog .modal-content .modal-body .field--name-field-phone .form-type-tel .form-tel {
   border-radius: 5px;
   border: 1px solid #E1E1E1;
   border-bottom: 3px solid #E1E1E1;
   color: #000;
 }
-/* line 91, ../scss/region/_form.scss */
+/* line 90, ../scss/region/_form.scss */
 .modal-dialog .modal-content .modal-footer {
   background-color: #f2f2f2;
   border-top: none;
@@ -9923,7 +9924,7 @@ section#block-nomeritelefonivnagolovnustorinku .field--name-field-life {
   border-left: 1px solid #e1e1e1;
   border-bottom: 1px solid #e1e1e1;
 }
-/* line 98, ../scss/region/_form.scss */
+/* line 97, ../scss/region/_form.scss */
 .modal-dialog .modal-content .modal-footer .button--primary {
   width: 250px;
   border: none;
@@ -9934,11 +9935,11 @@ section#block-nomeritelefonivnagolovnustorinku .field--name-field-life {
   font-weight: bold;
   padding-bottom: 10px;
 }
-/* line 111, ../scss/region/_form.scss */
+/* line 110, ../scss/region/_form.scss */
 .modal-dialog .contact-message-feedback-form .form-actions {
   display: none;
 }
-/* line 114, ../scss/region/_form.scss */
+/* line 113, ../scss/region/_form.scss */
 .modal-dialog .contact-message-feedback-form .js-form-required {
   display: none;
 }

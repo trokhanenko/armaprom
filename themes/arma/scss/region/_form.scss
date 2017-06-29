@@ -1,13 +1,12 @@
 .form-right {
-      background: url(/themes/arma/images/form.png) no-repeat;
-      background-size: 140px 60px;
+      background: #f00;
+      box-shadow: 1px 1px 5px;
       border-top-right-radius: 5px;
       border-top-left-radius: 5px;
       display: block;
-      height: 60px;
-      padding: 15px 10px 0;
+      padding: 10px 10px 30px 10px;
       position: fixed;
-      right: -56px;
+      right: -60px;
       top: 292px;
       transform: rotate(-90deg);
   .block-contact-poup {
