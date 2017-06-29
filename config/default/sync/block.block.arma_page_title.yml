@@ -9,7 +9,7 @@ _core:
 id: arma_page_title
 theme: arma
 region: content
-weight: -10
+weight: -9
 provider: null
 plugin: page_title_block
 settings:

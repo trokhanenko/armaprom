@@ -22,11 +22,3 @@
   };
 })(jQuery, Drupal, this, this.document);
 
-(function ($, Drupal, window, document) {
-  Drupal.behaviors.accordionBehavior = {
-    attach: function (context, settings) {
-      // Behavior вызывается несколько раз на странице, не забывайте использовать функцию .once().
-      
-    }
-  };
-})(jQuery, Drupal, this, this.document);

@@ -9817,6 +9817,22 @@ section#block-nomeritelefonivnagolovnustorinku .field--name-field-life {
   }
 }
 
+/* line 1, ../scss/block/_paragraph.scss */
+.paragraph--type--faq {
+  background: linear-gradient(to top, #eee 0%, #fff 100%);
+  border-radius: 10px;
+  padding: 15px;
+}
+/* line 5, ../scss/block/_paragraph.scss */
+.paragraph--type--faq .field--name-field-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+/* line 8, ../scss/block/_paragraph.scss */
+.paragraph--type--faq .field--name-field-title:hover {
+  cursor: pointer;
+}
+
 /* line 1, ../scss/region/_sitebar-first.scss */
 .region-sidebar-first {
   background: linear-gradient(#e0e0e0 0%, #fafafa 10%, #fff 100%);
@@ -10134,20 +10150,25 @@ header {
   color: #ffffff;
 }
 
-/* line 2, ../scss/page/page-product.scss */
+/* line 2, ../scss/page/_page-product.scss */
 .path-product .field.field--name-variations.field--type-entity-reference.field--label-hidden.field--items {
   float: right;
 }
-/* line 5, ../scss/page/page-product.scss */
+/* line 5, ../scss/page/_page-product.scss */
 .path-product .field.field--name-field-images.field--type-image.field--label-hidden.field--items {
   float: left;
   margin-right: 10px;
 }
 @media only screen and (max-width: 540px) {
-  /* line 5, ../scss/page/page-product.scss */
+  /* line 5, ../scss/page/_page-product.scss */
   .path-product .field.field--name-field-images.field--type-image.field--label-hidden.field--items {
     float: none;
   }
+}
+
+/* line 2, ../scss/page/_order.scss */
+.cart-form .order-total-line {
+  padding: 0;
 }
 
 /**
@@ -10199,21 +10220,21 @@ header {
   color: #fff;
 }
 
-/* line 38, ../scss/_overrides.scss */
+/* line 43, ../scss/_overrides.scss */
 ol, ul {
   padding-left: 1.5em;
 }
-/* line 40, ../scss/_overrides.scss */
+/* line 45, ../scss/_overrides.scss */
 .popover ol:last-child, .popover ul:last-child {
   margin-bottom: 0;
 }
 
-/* line 46, ../scss/_overrides.scss */
+/* line 51, ../scss/_overrides.scss */
 .page-header {
   margin-top: 0;
 }
 
-/* line 51, ../scss/_overrides.scss */
+/* line 56, ../scss/_overrides.scss */
 .footer {
   margin-top: 45px;
   padding-top: 35px;
@@ -10221,32 +10242,32 @@ ol, ul {
   border-top: 1px solid #E5E5E5;
 }
 
-/* line 59, ../scss/_overrides.scss */
+/* line 64, ../scss/_overrides.scss */
 p:last-child,
 .form-group:last-child,
 .panel:last-child {
   margin-bottom: 0;
 }
 
-/* line 67, ../scss/_overrides.scss */
+/* line 72, ../scss/_overrides.scss */
 .region-help > .glyphicon {
   font-size: 18px;
   float: left;
   margin: -0.05em 0.5em 0 0;
 }
-/* line 72, ../scss/_overrides.scss */
+/* line 77, ../scss/_overrides.scss */
 .region-help .block {
   overflow: hidden;
 }
 
-/* line 78, ../scss/_overrides.scss */
+/* line 83, ../scss/_overrides.scss */
 .help-block, .control-group .help-inline {
   color: #777777;
   font-size: 12px;
   margin: 5px 0 10px;
   padding: 0;
 }
-/* line 83, ../scss/_overrides.scss */
+/* line 88, ../scss/_overrides.scss */
 .help-block:first-child, .control-group .help-inline:first-child {
   margin-top: 0;
 }

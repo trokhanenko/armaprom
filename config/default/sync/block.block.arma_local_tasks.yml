@@ -9,7 +9,7 @@ _core:
 id: arma_local_tasks
 theme: arma
 region: content
-weight: -12
+weight: -11
 provider: null
 plugin: local_tasks_block
 settings:

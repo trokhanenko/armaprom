@@ -1,0 +1,7 @@
+uuid: 63ee08f8-73fa-4142-81ce-782c57d45da1
+langcode: uk
+status: true
+dependencies: {  }
+id: faq
+label: FAQ
+behavior_plugins: {  }

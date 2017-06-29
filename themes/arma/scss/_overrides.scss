@@ -17,6 +17,7 @@
 
 // Custom style
 @import "custom";
+
 @import "block/search";
 @import "block/lang";
 @import "block/phone";
@@ -24,12 +25,16 @@
 @import "block/cart";
 @import "block/slider";
 @import "block/footer";
+@import "block/paragraph";
+
 @import "region/sitebar-first";
 @import "region/content";
 @import "region/form";
 @import "region/menu";
 @import "region/pager-nav";
+
 @import "page/page-product";
+@import "page/order";
 
 
 // jQuery UI style overrides.
