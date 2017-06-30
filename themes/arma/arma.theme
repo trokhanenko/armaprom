@@ -8,11 +8,11 @@ use Drupal\Core\Form\FormStateInterface;
 
 function arma_form_alter(&$form, $form_state, $form_id) {
 //dsm($form_id);
+
  if ($form_id == 'contact_message_feedback_form') {
     $form['actions']['preview']['#access'] = FALSE;
   	$form['actions']['submit']['#value'] = 'Оставить заявку';
 
-    
   	$form['field_email']['widget']['0']['value']['#placeholder'] = 'E-mail';
   	$form['field_email']['widget']['0']['value']['#title'] = FALSE;
   	$form['field_name']['widget']['0']['value']['#placeholder'] = 'Имя';
@@ -33,4 +33,5 @@ function arma_form_alter(&$form, $form_state, $form_id) {
     $form['actions']['submit']['#value'] = 'Пошук';
     $form['actions']['submit']['#name'] = 'Пошук';   
   }
+
 }

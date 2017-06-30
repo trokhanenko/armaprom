@@ -2,4 +2,41 @@
 	background: #fff;
 	border-radius: 10px;
 	padding: 15px;
+	.field--name-field-image {
+		float: left;
+		background: #eee;
+		padding: 10px;
+		border-radius: 5px;
+		margin-right: 10px;
+	}
+}
+.article{
+	border-bottom: 1px solid #000;
+	margin: 15px 0;
+	padding-bottom: 15px;
+	.image{
+		background: #eee;
+		padding: 15px;
+		border-radius: 5px;
+		img{
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	.title a{
+		font-size: 18px;
+		font-weight: bold;
+		color: #000;
+	}
+	.descr{
+		font-size: 14px;
+	}
+	.view-node {
+		text-align: right;
+		a{
+			color: #777373;
+			font-size: 12px;
+		}
+	}
 }

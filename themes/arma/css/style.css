@@ -9908,6 +9908,51 @@ iframe {
   border-radius: 10px;
   padding: 15px;
 }
+/* line 5, ../scss/region/_content.scss */
+.region-content .field--name-field-image {
+  float: left;
+  background: #eee;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+/* line 13, ../scss/region/_content.scss */
+.article {
+  border-bottom: 1px solid #000;
+  margin: 15px 0;
+  padding-bottom: 15px;
+}
+/* line 17, ../scss/region/_content.scss */
+.article .image {
+  background: #eee;
+  padding: 15px;
+  border-radius: 5px;
+}
+/* line 21, ../scss/region/_content.scss */
+.article .image img {
+  width: 100%;
+  height: auto;
+}
+/* line 27, ../scss/region/_content.scss */
+.article .title a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+}
+/* line 32, ../scss/region/_content.scss */
+.article .descr {
+  font-size: 14px;
+}
+/* line 35, ../scss/region/_content.scss */
+.article .view-node {
+  text-align: right;
+}
+/* line 37, ../scss/region/_content.scss */
+.article .view-node a {
+  color: #777373;
+  font-size: 12px;
+}
 
 /* line 1, ../scss/region/_form.scss */
 .form-right {
