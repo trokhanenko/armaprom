@@ -13,19 +13,11 @@ function arma_form_alter(&$form, $form_state, $form_id) {
     $form['actions']['preview']['#access'] = FALSE;
   	$form['actions']['submit']['#value'] = 'Оставить заявку';
 
-  	$form['field_email']['widget']['0']['value']['#placeholder'] = 'E-mail';
-  	$form['field_email']['widget']['0']['value']['#title'] = FALSE;
+    $form['mail']['#placeholder'] = 'E-mail';
   	$form['field_name']['widget']['0']['value']['#placeholder'] = 'Имя';
     $form['field_name']['widget']['0']['value']['#title'] = FALSE;
     $form['field_phone']['widget']['0']['value']['#placeholder'] = 'Телефон';
     $form['field_phone']['widget']['0']['value']['#title'] = FALSE;
-  	// $form['subject']['widget']['0']['value']['#placeholder'] = 'Subject';
-  	// $form['subject']['widget']['0']['value']['#required'] = 1;
-  	// $form['subject']['widget']['0']['value']['#title'] = FALSE;
-  	// $form['message']['widget']['0']['value']['#placeholder'] = 'Your Message';
-  	// $form['message']['widget']['0']['value']['#required'] = 1;
-  	// $form['message']['widget']['0']['value']['#title'] = FALSE;
-    // dsm($form);
   }
   
   if ($form_id == 'search_block_form') {
