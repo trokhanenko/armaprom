@@ -8,15 +8,16 @@
 		font-size: 20px;
 		font-weight: bold;
 		margin-top: 5px;
+		@include respond-to(xs) {
+    		text-align: center;
+  		}
 	}
 	a{
 		color: #000;
 		border-bottom: 2px dotted #eee;
 		padding: 8px 8px !important;
+		@include respond-to(md) {
+			font-size: 12px;
+  		}
 	}
-	@include respond-to(xs) {
-    	h2{
-    		text-align: center;
-    	}
-  	}
 }

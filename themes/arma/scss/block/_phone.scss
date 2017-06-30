@@ -12,6 +12,9 @@
       padding-right: 50px;
       background-position-x: 162px;
       margin-bottom: 10px;
+      @include respond-to(md) {
+        background-position-x: 144px;
+      }
     }
     .field--name-field-vodafone{
       background: url(/themes/arma/images/tel_mts.png) no-repeat right center;
@@ -22,18 +25,15 @@
       background: url(/themes/arma/images/tel_life.png) no-repeat right center;
       padding-right: 50px;
     }
-}
-
-@media screen and (max-width: 540px) {
-  .block-language {
-      display: none;
-  }
-  .region {
-    #block-nomeritelefonivnagolovnustorinku {
+    @include respond-to(md) {
+      font-size: 14px;
+    }
+    @include respond-to(xs) {
       width: 240px;
       margin: 15px auto;
       float: none; 
     }
-  }
 }
+
+
 

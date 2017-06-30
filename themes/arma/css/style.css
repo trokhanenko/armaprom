@@ -9563,6 +9563,12 @@ iframe {
     display: none;
   }
 }
+@media only screen and (min-width: 541px) and (max-width: 1023px) {
+  /* line 1, ../scss/block/_search.scss */
+  #block-rozkritaformasearchpage-1 {
+    display: none;
+  }
+}
 
 /* line 1, ../scss/block/_lang.scss */
 .block-language {
@@ -9570,11 +9576,17 @@ iframe {
   float: right;
   margin: 0 20px;
 }
-/* line 5, ../scss/block/_lang.scss */
+@media only screen and (min-width: 541px) and (max-width: 1023px) {
+  /* line 1, ../scss/block/_lang.scss */
+  .block-language {
+    margin: 0 5px;
+  }
+}
+/* line 8, ../scss/block/_lang.scss */
 .block-language ul {
   list-style-type: none;
 }
-/* line 7, ../scss/block/_lang.scss */
+/* line 10, ../scss/block/_lang.scss */
 .block-language ul a {
   border-radius: 5px;
   margin-bottom: 5px;
@@ -9585,11 +9597,23 @@ iframe {
   background: #eee;
   width: 30px;
 }
-/* line 17, ../scss/block/_lang.scss */
+/* line 20, ../scss/block/_lang.scss */
 .block-language ul .is-active {
   background: #444444;
   color: #fff;
   border-radius: 5px;
+}
+@media only screen and (min-width: 541px) and (max-width: 1023px) {
+  /* line 1, ../scss/block/_lang.scss */
+  .block-language {
+    display: none;
+  }
+}
+@media only screen and (max-width: 540px) {
+  /* line 1, ../scss/block/_lang.scss */
+  .block-language {
+    display: none;
+  }
 }
 
 /* line 1, ../scss/block/_phone.scss */
@@ -9610,31 +9634,38 @@ iframe {
   background-position-x: 162px;
   margin-bottom: 10px;
 }
-/* line 16, ../scss/block/_phone.scss */
+@media only screen and (min-width: 541px) and (max-width: 1023px) {
+  /* line 10, ../scss/block/_phone.scss */
+  #block-nomeritelefonivnagolovnustorinku .field--name-field-kiivstar {
+    background-position-x: 144px;
+  }
+}
+/* line 19, ../scss/block/_phone.scss */
 #block-nomeritelefonivnagolovnustorinku .field--name-field-vodafone {
   background: url(/themes/arma/images/tel_mts.png) no-repeat right center;
   padding-right: 50px;
   margin-bottom: 10px;
 }
-/* line 21, ../scss/block/_phone.scss */
+/* line 24, ../scss/block/_phone.scss */
 #block-nomeritelefonivnagolovnustorinku .field--name-field-life {
   background: url(/themes/arma/images/tel_life.png) no-repeat right center;
   padding-right: 50px;
 }
-
-@media screen and (max-width: 540px) {
-  /* line 28, ../scss/block/_phone.scss */
-  .block-language {
-    display: none;
+@media only screen and (min-width: 541px) and (max-width: 1023px) {
+  /* line 1, ../scss/block/_phone.scss */
+  #block-nomeritelefonivnagolovnustorinku {
+    font-size: 14px;
   }
-
-  /* line 32, ../scss/block/_phone.scss */
-  .region #block-nomeritelefonivnagolovnustorinku {
+}
+@media only screen and (max-width: 540px) {
+  /* line 1, ../scss/block/_phone.scss */
+  #block-nomeritelefonivnagolovnustorinku {
     width: 240px;
     margin: 15px auto;
     float: none;
   }
 }
+
 /* line 1, ../scss/block/_slogan.scss */
 #block-slogan {
   width: 100%;
@@ -9852,16 +9883,22 @@ iframe {
   font-weight: bold;
   margin-top: 5px;
 }
-/* line 12, ../scss/region/_sitebar-first.scss */
+@media only screen and (max-width: 540px) {
+  /* line 7, ../scss/region/_sitebar-first.scss */
+  .region-sidebar-first h2 {
+    text-align: center;
+  }
+}
+/* line 15, ../scss/region/_sitebar-first.scss */
 .region-sidebar-first a {
   color: #000;
   border-bottom: 2px dotted #eee;
   padding: 8px 8px !important;
 }
-@media only screen and (max-width: 540px) {
-  /* line 18, ../scss/region/_sitebar-first.scss */
-  .region-sidebar-first h2 {
-    text-align: center;
+@media only screen and (min-width: 541px) and (max-width: 1023px) {
+  /* line 15, ../scss/region/_sitebar-first.scss */
+  .region-sidebar-first a {
+    font-size: 12px;
   }
 }
 
@@ -9884,8 +9921,9 @@ iframe {
   right: -60px;
   top: 292px;
   transform: rotate(-90deg);
+  z-index: 9;
 }
-/* line 13, ../scss/region/_form.scss */
+/* line 14, ../scss/region/_form.scss */
 .form-right .block-contact-poup a {
   color: #ffffff;
   text-decoration: none;
@@ -9893,18 +9931,18 @@ iframe {
   font-family: Arial;
 }
 
-/* line 21, ../scss/region/_form.scss */
+/* line 22, ../scss/region/_form.scss */
 .modal-dialog {
   padding-left: 7.5%;
   padding-right: 7.5%;
 }
-/* line 24, ../scss/region/_form.scss */
+/* line 25, ../scss/region/_form.scss */
 .modal-dialog .modal-content {
   border: 1px solid black;
   padding: 10px;
   border-radius: 10px;
 }
-/* line 28, ../scss/region/_form.scss */
+/* line 29, ../scss/region/_form.scss */
 .modal-dialog .modal-content .modal-header {
   background-color: #f2f2f2;
   border-top: 1px solid #e1e1e1;
@@ -9913,58 +9951,58 @@ iframe {
   border-bottom: none;
   color: #000;
 }
-/* line 35, ../scss/region/_form.scss */
+/* line 36, ../scss/region/_form.scss */
 .modal-dialog .modal-content .modal-header .close {
   margin-top: -20px;
   margin-right: -13px;
 }
-/* line 39, ../scss/region/_form.scss */
+/* line 40, ../scss/region/_form.scss */
 .modal-dialog .modal-content .modal-header .modal-title {
   text-align: center;
 }
-/* line 43, ../scss/region/_form.scss */
+/* line 44, ../scss/region/_form.scss */
 .modal-dialog .modal-content .modal-body {
   background-color: #f2f2f2;
   border-right: 1px solid #e1e1e1;
   border-left: 1px solid #e1e1e1;
 }
-/* line 49, ../scss/region/_form.scss */
+/* line 50, ../scss/region/_form.scss */
 .modal-dialog .modal-content .modal-body .field--name-field-name .js-form-type-textfield .form-control {
   display: block;
   width: 100%;
 }
-/* line 53, ../scss/region/_form.scss */
+/* line 54, ../scss/region/_form.scss */
 .modal-dialog .modal-content .modal-body .field--name-field-name .js-form-type-textfield .js-text-full {
   border-radius: 5px;
   border: 1px solid #E1E1E1;
   border-bottom: 3px solid #E1E1E1;
   color: #000;
 }
-/* line 63, ../scss/region/_form.scss */
+/* line 64, ../scss/region/_form.scss */
 .modal-dialog .modal-content .modal-body .field--name-field-email .js-form-type-email .form-control {
   display: block;
   width: 100%;
 }
-/* line 67, ../scss/region/_form.scss */
+/* line 68, ../scss/region/_form.scss */
 .modal-dialog .modal-content .modal-body .field--name-field-email .js-form-type-email .form-email {
   border-radius: 5px;
   border: 1px solid #E1E1E1;
   border-bottom: 3px solid #E1E1E1;
   color: #000;
 }
-/* line 77, ../scss/region/_form.scss */
+/* line 78, ../scss/region/_form.scss */
 .modal-dialog .modal-content .modal-body .field--name-field-phone .form-type-tel .form-control {
   display: block;
   width: 100%;
 }
-/* line 81, ../scss/region/_form.scss */
+/* line 82, ../scss/region/_form.scss */
 .modal-dialog .modal-content .modal-body .field--name-field-phone .form-type-tel .form-tel {
   border-radius: 5px;
   border: 1px solid #E1E1E1;
   border-bottom: 3px solid #E1E1E1;
   color: #000;
 }
-/* line 90, ../scss/region/_form.scss */
+/* line 91, ../scss/region/_form.scss */
 .modal-dialog .modal-content .modal-footer {
   background-color: #f2f2f2;
   border-top: none;
@@ -9973,7 +10011,7 @@ iframe {
   border-left: 1px solid #e1e1e1;
   border-bottom: 1px solid #e1e1e1;
 }
-/* line 97, ../scss/region/_form.scss */
+/* line 98, ../scss/region/_form.scss */
 .modal-dialog .modal-content .modal-footer .button--primary {
   width: 250px;
   border: none;
@@ -9984,11 +10022,11 @@ iframe {
   font-weight: bold;
   padding-bottom: 10px;
 }
-/* line 110, ../scss/region/_form.scss */
+/* line 111, ../scss/region/_form.scss */
 .modal-dialog .contact-message-feedback-form .form-actions {
   display: none;
 }
-/* line 113, ../scss/region/_form.scss */
+/* line 114, ../scss/region/_form.scss */
 .modal-dialog .contact-message-feedback-form .js-form-required {
   display: none;
 }
