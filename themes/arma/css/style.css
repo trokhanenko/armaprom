@@ -10023,31 +10023,31 @@ iframe {
   border-bottom: 3px solid #E1E1E1;
   color: #000;
 }
-/* line 64, ../scss/region/_form.scss */
-.modal-dialog .modal-content .modal-body .field--name-field-email .js-form-type-email .form-control {
+/* line 63, ../scss/region/_form.scss */
+.modal-dialog .modal-content .modal-body .js-form-type-email .form-control {
   display: block;
   width: 100%;
 }
-/* line 68, ../scss/region/_form.scss */
-.modal-dialog .modal-content .modal-body .field--name-field-email .js-form-type-email .form-email {
+/* line 67, ../scss/region/_form.scss */
+.modal-dialog .modal-content .modal-body .js-form-type-email .form-email {
   border-radius: 5px;
   border: 1px solid #E1E1E1;
   border-bottom: 3px solid #E1E1E1;
   color: #000;
 }
-/* line 78, ../scss/region/_form.scss */
+/* line 76, ../scss/region/_form.scss */
 .modal-dialog .modal-content .modal-body .field--name-field-phone .form-type-tel .form-control {
   display: block;
   width: 100%;
 }
-/* line 82, ../scss/region/_form.scss */
+/* line 80, ../scss/region/_form.scss */
 .modal-dialog .modal-content .modal-body .field--name-field-phone .form-type-tel .form-tel {
   border-radius: 5px;
   border: 1px solid #E1E1E1;
   border-bottom: 3px solid #E1E1E1;
   color: #000;
 }
-/* line 91, ../scss/region/_form.scss */
+/* line 89, ../scss/region/_form.scss */
 .modal-dialog .modal-content .modal-footer {
   background-color: #f2f2f2;
   border-top: none;
@@ -10056,7 +10056,7 @@ iframe {
   border-left: 1px solid #e1e1e1;
   border-bottom: 1px solid #e1e1e1;
 }
-/* line 98, ../scss/region/_form.scss */
+/* line 96, ../scss/region/_form.scss */
 .modal-dialog .modal-content .modal-footer .button--primary {
   width: 250px;
   border: none;
@@ -10067,11 +10067,11 @@ iframe {
   font-weight: bold;
   padding-bottom: 10px;
 }
-/* line 111, ../scss/region/_form.scss */
+/* line 109, ../scss/region/_form.scss */
 .modal-dialog .contact-message-feedback-form .form-actions {
   display: none;
 }
-/* line 114, ../scss/region/_form.scss */
+/* line 112, ../scss/region/_form.scss */
 .modal-dialog .contact-message-feedback-form .js-form-required {
   display: none;
 }

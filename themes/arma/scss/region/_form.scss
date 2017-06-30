@@ -59,18 +59,16 @@
           }
         }
       }
-      .field--name-field-email {
-        .js-form-type-email {
-          .form-control {
-            display: block;
-            width: 100%;
-          }
-          .form-email {
-            border-radius: 5px;
-            border: 1px solid #E1E1E1;
-            border-bottom: 3px solid #E1E1E1;
-            color: #000;
-          }
+      .js-form-type-email {
+        .form-control {
+          display: block;
+          width: 100%;
+        }
+        .form-email {
+           border-radius: 5px;
+           border: 1px solid #E1E1E1;
+          border-bottom: 3px solid #E1E1E1;
+          color: #000;
         }
       }
       .field--name-field-phone {
