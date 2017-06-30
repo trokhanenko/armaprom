@@ -14,4 +14,9 @@
 		border-bottom: 2px dotted #eee;
 		padding: 8px 8px !important;
 	}
+	@include respond-to(xs) {
+    	h2{
+    		text-align: center;
+    	}
+  	}
 }

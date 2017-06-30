@@ -9514,8 +9514,13 @@ body {
   margin-bottom: 20px;
 }
 
+/* line 12, ../scss/_custom.scss */
+iframe {
+  width: 100%;
+}
+
 @media only screen and (max-width: 540px) {
-  /* line 14, ../scss/_custom.scss */
+  /* line 16, ../scss/_custom.scss */
   #block-contactpopupblock {
     display: none;
   }
@@ -9588,7 +9593,7 @@ body {
 }
 
 /* line 1, ../scss/block/_phone.scss */
-section#block-nomeritelefonivnagolovnustorinku {
+#block-nomeritelefonivnagolovnustorinku {
   width: auto;
   float: right;
   font-weight: bold;
@@ -9599,20 +9604,20 @@ section#block-nomeritelefonivnagolovnustorinku {
   box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.5);
 }
 /* line 10, ../scss/block/_phone.scss */
-section#block-nomeritelefonivnagolovnustorinku .field--name-field-kiivstar {
+#block-nomeritelefonivnagolovnustorinku .field--name-field-kiivstar {
   background: url(/themes/arma/images/tel_kiyvstar.png) no-repeat right center;
   padding-right: 50px;
   background-position-x: 162px;
   margin-bottom: 10px;
 }
 /* line 16, ../scss/block/_phone.scss */
-section#block-nomeritelefonivnagolovnustorinku .field--name-field-vodafone {
+#block-nomeritelefonivnagolovnustorinku .field--name-field-vodafone {
   background: url(/themes/arma/images/tel_mts.png) no-repeat right center;
   padding-right: 50px;
   margin-bottom: 10px;
 }
 /* line 21, ../scss/block/_phone.scss */
-section#block-nomeritelefonivnagolovnustorinku .field--name-field-life {
+#block-nomeritelefonivnagolovnustorinku .field--name-field-life {
   background: url(/themes/arma/images/tel_life.png) no-repeat right center;
   padding-right: 50px;
 }
@@ -9626,7 +9631,7 @@ section#block-nomeritelefonivnagolovnustorinku .field--name-field-life {
   /* line 32, ../scss/block/_phone.scss */
   .region #block-nomeritelefonivnagolovnustorinku {
     width: 240px;
-    margin: 0 auto;
+    margin: 15px auto;
     float: none;
   }
 }
@@ -9852,6 +9857,12 @@ section#block-nomeritelefonivnagolovnustorinku .field--name-field-life {
   color: #000;
   border-bottom: 2px dotted #eee;
   padding: 8px 8px !important;
+}
+@media only screen and (max-width: 540px) {
+  /* line 18, ../scss/region/_sitebar-first.scss */
+  .region-sidebar-first h2 {
+    text-align: center;
+  }
 }
 
 /* line 1, ../scss/region/_content.scss */
